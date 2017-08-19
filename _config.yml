@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jiansoft
-email: ceo@jiansoft.com
+email: ceo@jiansoft.net
 description: > # this means to ignore newlines until "baseurl:"
   Linux, IoT, 硬件模块, Raspberry Pi, Arduino
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -27,7 +27,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
+excerpt_separator： -----
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
